@@ -1,0 +1,100 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80vw;
+  border-radius: 10px;
+}
+.unorder {
+  padding-left: 0px;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.bottomsection {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+}
+.bottom1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid #7e858e;
+  width: 35vw;
+  padding: 50px;
+  margin-right: 32px;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.bottom2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid #7e858e;
+  width: 40vw;
+  padding: 30px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.unorder2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-around;
+  border: 1px solid #9a9c9e;
+  padding-left: 0px;
+  width: 35vw;
+}
+.listitemcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.deleted {
+  visibility: hidden;
+}
+label {
+  margin-top: 10px;
+  color: #7e858e;
+  font-size: 13px;
+}
+select {
+  width: 170px;
+}
+.addbutton {
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: blue;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

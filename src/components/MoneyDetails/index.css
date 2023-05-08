@@ -1,0 +1,25 @@
+.listitem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25vw;
+}
+.img1 {
+  height: 80px;
+  width: 80px;
+}
+.color1 {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+  border-radius: 10px;
+}
+.color2 {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+  border-radius: 10px;
+}
+.color3 {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+  border-radius: 10px;
+}
